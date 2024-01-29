@@ -11,6 +11,7 @@ import { Test2Module } from './test2/test2.module';
 import { Test3Module } from './test3/test3.module';
 import { Test4Module } from './test4/test4.module';
 import { Test5Module } from './test5/test5.module';
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Test5Module } from './test5/test5.module';
     Test2Module,
     Test3Module,
     Test4Module,
-    Test5Module
+    Test5Module,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]

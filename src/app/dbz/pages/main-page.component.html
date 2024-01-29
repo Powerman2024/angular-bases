@@ -1,0 +1,15 @@
+<h1>DBZ-La Saga</h1>
+
+<p>Goku esta mas fuerte que nunca</p>
+
+<div class="row">
+  <div class="col">
+    <app-dbz-list [characterList]="characters"
+     (onDetele)="onDeleteCharacter($event)"></app-dbz-list>
+  </div>
+
+  <div class="col">
+    <app-dbz-add-character (onNewCharacter)="onNewCharacter($event)"></app-dbz-add-character>
+  </div>
+
+</div>
